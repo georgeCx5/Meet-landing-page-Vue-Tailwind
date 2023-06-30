@@ -24,5 +24,5 @@ export default {
 }
 </script>
 <template>
-   <img class=" rounded-lg" :src="data[imgIndex]" :alt="`Image ${imgIndex + 1}`" draggable="false">
+   <img class=" rounded-lg TB:rounded-xl select-none" :src="data[imgIndex]" :alt="`Image ${imgIndex + 1}`" draggable="false">
 </template>
